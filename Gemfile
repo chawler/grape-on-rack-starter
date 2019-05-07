@@ -35,6 +35,9 @@ gem 'puma'
 # gem 'builder', '~>3.1'
 # gem 'activerecord-postgis-adapter'
 
+# simple HTTP client 
+gem 'faraday'
+
 # soft delete support in db
 gem "paranoia", "~> 2.2"
 
@@ -43,7 +46,7 @@ gem 'bcrypt'
 
 # gem 'rack-mini-profiler'
 
-# Ruby wrapper for hiredis 
+# Ruby wrapper for hiredis
 # gem "hiredis", "~> 0.6.1"
 # gem "redis", ">= 3.2.0", :require => ["redis", "redis/connection/hiredis"]
 # gem 'redis-namespace'

@@ -3,7 +3,7 @@ Get start api developing faster and completed user system
 
 ## Ruby Version
 ```
-2.4.0
+2.6.0
 ```
 
 ## Features
@@ -16,6 +16,7 @@ Get start api developing faster and completed user system
 - paranoia soft deleted
 - jwt
 - bcrypt
+- faraday
 - mina deployment
 - rspec and factory_girl
 - completed user system(login with phone register with phone)
@@ -31,9 +32,14 @@ cd REPO_FOLDER
 rm -rf .git/
 ```
 
+3. rename RVM gemset
+```
+vi .ruby-gemset
+```
+
 ## prerequirment
 
-- RVM
+- Ruby Version Manager (RVM)
 
 ## Start Server
 
